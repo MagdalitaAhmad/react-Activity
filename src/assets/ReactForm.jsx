@@ -21,7 +21,7 @@ function ReactForm() {
     const handleSubmit = (e, id = null) => {
         e.preventDefault();
         if (!name || !age) {
-            setError('Name and age are required');
+            setError('Name and age is cannot be empty! ');
             return;
         }
 
